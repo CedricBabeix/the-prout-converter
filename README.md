@@ -14,4 +14,4 @@ Prout to eV convertion and backwards
 
 * **Cédric Babeix**     - *Base code and repository maintenance*  - [CedricBabeix](https://github.com/CedricBabeix)
 
-See also the list of [contributors](https://github.com/CedricBabeix/stocks/graphs/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/CedricBabeix/the-prout-converter/graphs/contributors) who participated in this project.
