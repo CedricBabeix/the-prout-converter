@@ -1,9 +1,17 @@
 // 1 Prout = 1,85 × 10^5 eV
 
 function proutConverter(valNum) {
-    document.getElementById("eV").value = valNum * 1.85 * Math.pow(10, 5);
+    var result = valNum * 1.85 * Math.pow(10, 5);
+    result = expo(result, 3);
+    document.getElementById("eV").value = result;
 } 
 
 function eVConverter(valNum) {
-    document.getElementById("Prout").value = valNum / (1.85 * Math.pow(10, 5));
+    var result = valNum / (1.85 * Math.pow(10, 5));
+    result = expo(result, 3);
+    document.getElementById("Prout").value = result;
+}
+
+function expo(x, f) {
+  return Number.parseFloat(x).toExponential(f);
 }
