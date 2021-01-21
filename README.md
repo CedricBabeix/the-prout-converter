@@ -1,6 +1,6 @@
 # The Prout converter
 
-Prout to eV convertion and backwards
+Prout to eV and Joules conversion and backwards
 
 [https://the-prout-converter.net](https://the-prout-converter.net)
 
