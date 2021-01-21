@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>The Prout converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <h1>The Prout converter</h1>
+
+    <p>
+    <label>Prout</label>
+    <input id="Prout" type="number" placeholder="Prout" oninput="proutConverter(this.value)" onchange="proutConverter(this.value)">
+    </p>
+
+    <p>
+        <label>eV</label>
+        <input id="eV" type="number" placeholder="eV" oninput="eVConverter(this.value)" onchange="eVConverter(this.value)">
+    </p>
+</body>
+
+</html>
